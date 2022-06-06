@@ -271,8 +271,11 @@ def create_paths_from_connections(connections, start_node, number_of_cities):
 
 if __name__ == '__main__':
 
+    # Initial conditions for creating weighted graph
     number_of_cities = 6
+    # per_of_paths must follow conditions: 0 < per_of_paths <= 1
     per_of_paths = 1
+
     choice = 0
     city1 = 0
     city2 = 0
